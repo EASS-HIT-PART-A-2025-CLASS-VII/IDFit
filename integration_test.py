@@ -1,10 +1,11 @@
-import httpx
 import pytest
+from fastapi.testclient import TestClient
+from app.main import app
 
-BASE_URL = "http://localhost:8000"
+client = TestClient(app)
 
 def test_integration_read_root():
-    resp = httpx.get(f"{BASE_URL}/")
+    resp = client.get("/")
     assert resp.status_code == 200
     assert resp.json() == {"message": "Hello, World!"}
 
@@ -13,5 +14,5 @@ def test_integration_read_root():
     ({"id":2, "name":"bar", "price":-1}, 422),
 ])
 def test_integration_items(item, expected_status):
-    resp = httpx.post(f"{BASE_URL}/items/", json=item)
+    resp = client.post("/items/", json=item)
     assert resp.status_code == expected_status
