@@ -1,9 +1,43 @@
-venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
-
 *.swp
-*.swo
+.env
+.venv/
+venv/
 
-.dockerignore
+# Pytest
+.pytest_cache/
+.cache/
+*.cover
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Docker artifacts
+*.swo
+*.swn
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Frontend (Node + Vite + React)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.turbo/
+frontend/.next/
+frontend/.cache/
+frontend/.eslintcache
+frontend/coverage/
+frontend/yarn.lock
+frontend/package-lock.json
+
+# Build artifacts
+*.tsbuildinfo

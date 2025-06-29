@@ -1,0 +1,39 @@
+services:
+  api:
+    build: ./Backend
+    container_name: idfit-backend
+    env_file:
+      - ./Backend/.env
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongodb
+    restart: unless-stopped
+    volumes:
+      - ./Backend/roles.json:/app/roles.json 
+      - ./Backend/init_roles.py:/app/init_roles.py  
+      - ./Backend/entrypoint.sh:/app/entrypoint.sh 
+
+  frontend:
+    build: ./frontend
+    container_name: idfit-frontend
+    env_file:
+      - ./frontend/.env
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+    restart: unless-stopped
+
+
+  mongodb:
+    image: mongo:6.0
+    container_name: idfit-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
