@@ -1,0 +1,870 @@
+[
+  {
+    "name": "מדריך סייבר",
+    "type": ["טכנולוגי", "הדרכה"],
+    "description": "הדרכת חיילים בתחום הסייבר והגנת המידע.",
+    "requirements": {
+      "languages": ["עברית", "אנגלית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["cyber_security", "instruction"],
+      "traits": ["technical_skills", "communication", "responsibility"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "קצין תכנון מבצעי",
+    "type": ["מבצעי", "פיקוד"],
+    "description": "אחריות על תכנון מבצעים צבאיים ברמות שונות.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["operational_planning", "strategy"],
+      "traits": ["analytical_thinking", "leadership", "decision_making"],
+      "profile": 72,
+      "dapar": 60,
+      "kaba": 52
+    }
+  },
+  {
+    "name": "מפעיל מערכות ניווט",
+      "type": ["מבצעי", "טכני"],
+    "description": "הפעלה ותחזוקה של מערכות ניווט מתקדמות.",
+    "requirements": {
+      "languages": ["עברית", "אנגלית"],
+      "fitness": ["3", "4", "5"],
+      "tech": ["navigation_systems", "systems_operation"],
+      "traits": ["technical_skills", "attention_to_detail", "teamwork"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מש''ק/ית רווחה",
+    "type": ["עורף", "אנושי"],
+    "description": "תמיכה ברווחת החיילים וארגון פעילויות חברתיות.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["human_resources", "event_planning"],
+      "traits": ["empathy", "organization", "communication"],
+      "profile": 45,
+      "dapar": 40,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מדריך רובוטיקה",
+    "type": ["הדרכה", "טכני"],
+    "description": "הדרכת חיילים בשימוש במערכות רובוטיות לצרכים מבצעיים.",
+    "requirements": {
+      "languages": ["עברית", "אנגלית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["robotics", "instruction"],
+      "traits": ["technical_skills", "patience", "clarity"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "קצין ניהול פרויקטים",
+    "type": ["פיקוד", "עורף"],
+    "description": "ניהול והובלת פרויקטים טכנולוגיים בצה\"ל.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["project_management", "technology"],
+      "traits": ["leadership", "organization", "responsibility"],
+      "profile": 72,
+      "dapar": 60,
+      "kaba": 52
+    }
+  },
+  {
+    "name": "מפעיל מערכות הגנה אווירית",
+    "type": ["קרבי", "טכני"],
+    "description": "הפעלה ותחזוקה של מערכות הגנה מפני איומים אוויריים.",
+    "requirements": {
+      "languages": ["עברית", "אנגלית"],
+      "fitness": ["4", "5"],
+      "tech": ["air_defense_systems", "systems_operation"],
+      "traits": ["technical_skills", "alertness", "teamwork"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מש''ק/ית תקשורת",
+    "type": ["עורף", "אנושי"],
+    "description": "ניהול מערכות התקשורת ביחידה והבטחת תקשורת רציפה.",
+    "requirements": {
+      "languages": ["עברית", "אנגלית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["communication_systems", "administration"],
+      "traits": ["organization", "responsibility", "technical_aptitude"],
+      "profile": 45,
+      "dapar": 40,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מדריך טכנולוגיות מידע",
+    "type": ["הדרכה", "טכנולוגי"],
+    "description": "הדרכת חיילים בשימוש במערכות מידע וטכנולוגיות מתקדמות.",
+    "requirements": {
+      "languages": ["עברית" ,"אנגלית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["information_technology", "instruction"],
+      "traits": ["technical_skills", "communication", "patience"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "קצין ניהול משאבים",
+    "type": ["עורף", "פיקוד"],
+    "description": "אחריות על ניהול המשאבים והתקציבים ביחידה.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["resource_management", "finance"],
+      "traits": ["organization", "responsibility", "analytical_thinking"],
+      "profile": 72,
+      "dapar": 60,
+      "kaba": 52
+    }
+  },
+  {
+    "name": "מדריך כליאה",
+    "type": ["הדרכה", "אנושי"],
+    "description": "הדרכת חיילים בתחום הכליאה וניהול מתקני כליאה צבאיים.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["3", "4", "5"],
+      "tech": ["corrections_management", "instruction"],
+      "traits": ["discipline", "leadership", "responsibility"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מש''ק/ית נפגעים",
+    "type": ["עורף", "אנושי"],
+    "description": "ליווי ותמיכה במשפחות נפגעים, כולל סיוע רגשי ומנהלי.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["human_resources", "administration"],
+      "traits": ["empathy", "communication", "organization"],
+      "profile": 45,
+      "dapar": 40,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מדריך נהיגה",
+    "type": ["מבצעי", "הדרכה"],
+    "description": "הדרכת חיילים בנהיגה מבצעית ובטיחותית.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["vehicle_operation", "instruction"],
+      "traits": ["patience", "responsibility", "technical_skills"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "קצין שלישות",
+    "type": ["עורף", "אנושי", "פיקוד"],
+    "description": "ניהול משאבי אנוש ותחום השלישות ביחידה.",
+    "requirements": {
+      "languages": ["עברית", "אנגלית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["human_resources", "administration"],
+      "traits": ["organization", "leadership", "responsibility"],
+      "profile": 64,
+      "dapar": 60,
+      "kaba": 52
+    }
+  },
+  {
+    "name": "מדריך אב''כ",
+    "type": ["עורף", "הדרכה"],
+    "description": "הדרכת חיילים בהתמודדות עם איומים כימיים וביולוגיים.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["NBC_protection", "instruction"],
+      "traits": ["alertness", "discipline", "technical_skills"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מש''ק/ית חינוך",
+    "type": ["עורף", "אנושי"],
+    "description": "הובלת פעילויות חינוכיות ותרבותיות ביחידה.",
+    "requirements": {
+      "languages": ["עברית", "אנגלית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["education", "program_management"],
+      "traits": ["creativity", "communication", "organization"],
+      "profile": 45,
+      "dapar": 40,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מפעיל מערכות מכ''ם",
+    "type": ["מבצעי", "טכני"],
+    "description": "הפעלה ותחזוקה של מערכות גילוי תנועה לצרכי מבצעיים.",
+    "requirements": {
+      "languages": ["עברית", "אנגלית"],
+      "fitness": ["3", "4", "5"],
+      "tech": ["radar_operation", "systems_maintenance"],
+      "traits": ["technical_skills", "attention_to_detail", "teamwork"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "קצין בטיחות",
+    "type": ["עורף", "פיקוד"],
+    "description": "אחריות על ניהול תחום הבטיחות ביחידה והדרכת חיילים.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["3", "4", "5"],
+      "tech": ["safety_management", "instruction"],
+      "traits": ["responsibility", "organization", "leadership"],
+      "profile": 64,
+      "dapar": 60,
+      "kaba": 52
+    }
+  },
+  {
+    "name": "מדריך קשר",
+    "type": ["טכני", "הדרכה"],
+    "description": "הדרכת חיילים בשימוש ותחזוקת ציוד קשר.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["2", "3", "4", "5"],
+      "tech": ["communication_systems", "instruction"],
+      "traits": ["technical_skills", "patience", "clarity"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מש''ק/ית קישור",
+    "type": ["עורף", "אנושי"],
+    "description": "תיאום וקישור בין יחידות שונות לצורך פעילות מבצעית.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["coordination", "administration"],
+      "traits": ["communication", "organization", "responsibility"],
+      "profile": 45,
+      "dapar": 40,
+      "kaba": null
+    }
+  },
+  {
+    "name": "נהג מבצעי",
+    "type": ["מבצעי", "טכני"],
+    "description": "נהיגה ברכבים מבצעיים והובלת כוחות וציוד בשטח.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["3", "4", "5"],
+      "tech": ["vehicle_operation", "navigation"],
+      "traits": ["responsibility", "alertness", "teamwork"],
+      "profile": 64,
+      "dapar": 40,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מש''ק/ית מתנדבים",
+    "type": ["עורף", "אנושי"],
+    "description": "ליווי ותמיכה במתנדבים בצה\"ל, כולל סיוע בשיבוץ ובקליטה.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["human_resources", "administration"],
+      "traits": ["empathy", "organization", "communication"],
+      "profile": 45,
+      "dapar": 40,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מדריך לוגיסטיקה",
+    "type": ["הדרכה"],
+    "description": "הדרכת חיילים בתחום הלוגיסטיקה והניהול האחסנה.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["logistics_management", "instruction"],
+      "traits": ["leadership", "organization", "clarity"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מיישם ERP",
+    "type": ["טכני", "עורף"],
+    "description": "הטמעה ותחזוקה של מערכות ERP ביחידות הצבא.",
+    "requirements": {
+      "languages": ["עברית", "אנגלית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["ERP_systems", "data_management"],
+      "traits": ["technical_skills", "problem_solving", "responsibility"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מדריך חו''ל",
+    "type": ["הדרכה", "אנושי"],
+    "description": "הדרכת חיילים בנושאים הקשורים לשירות בחו\"ל.",
+    "requirements": {
+      "languages": ["עברית", "אנגלית", "רוסית" ,"צרפתית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["instruction", "cultural_awareness"],
+      "traits": ["communication", "adaptability", "organization"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "אחראי רישום לוגיסטי",
+    "type": ["עורף"],
+    "description": "ניהול רישום ציוד ואחסנה ביחידות הלוגיסטיקה.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["inventory_management", "administration"],
+      "traits": ["organization", "responsibility", "attention_to_detail"],
+      "profile": 45,
+      "dapar": 40,
+      "kaba": null
+    }
+  },
+  {
+    "name": "טבח/ית צבאי",
+    "type": ["בישול", "אנושי"],
+    "description": "הכנת ארוחות לחיילים וניהול מטבח צבאי.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["cooking", "kitchen_management"],
+      "traits": ["creativity", "organization", "teamwork"],
+      "profile": 45,
+      "dapar": 40,
+      "kaba": null
+    }
+  },
+  {
+    "name": "בודק/ת ציוד אלקטרוניקה",
+    "type": ["עורף", "טכני"],
+    "description": "בדיקה ותחזוקה של ציוד אלקטרוני ביחידות הטכנולוגיות.",
+    "requirements": {
+      "languages": ["עברית", "אנגלית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["electronics", "equipment_testing"],
+      "traits": ["technical_skills", "precision", "responsibility"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "בוחנ/ת תחמושת",
+    "type": ["מבצעי", "טכני"],
+    "description": "בדיקה ואישור של תחמושת לשימוש מבצעי.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["2", "3", "4", "5"],
+      "tech": ["ammunition_testing", "safety_protocols"],
+      "traits": ["attention_to_detail", "responsibility", "technical_skills"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "בקר/ית שליטה ימית",
+    "type": ["מבצעי"],
+    "description": "ניהול ובקרה על מערכות שליטה ימית.",
+    "requirements": {
+      "languages": ["עברית", "אנגלית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["naval_control_systems", "monitoring"],
+      "traits": ["alertness", "technical_skills", "teamwork"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "לוחם שריון",
+    "type": ["קרבי", "אנושי"],
+    "description": "שירות כלוחם בחיל השריון, כולל הפעלת טנקים והשתתפות בפעילויות מבצעיות.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["4", "5"],
+      "tech": ["tank_operation", "field_navigation"],
+      "traits": ["resilience", "teamwork", "discipline"],
+      "profile": 97,
+      "dapar": null,
+      "kaba": null
+    }
+  },
+  {
+    "name": "קצין מודיעין",
+    "type": ["מודיעין", "קרבי"],
+    "description": "איסוף וניתוח מידע מודיעיני לצורך קבלת החלטות מבצעיות.",
+    "requirements": {
+      "languages": ["עברית", "ערבית" ,"פרסית"],
+      "fitness": ["3", "4", "5"],
+      "tech": ["intelligence_analysis", "data_processing"],
+      "traits": ["analytical_thinking", "discretion", "responsibility"],
+      "profile": 64,
+      "dapar": 60,
+      "kaba": 52
+    }
+  },
+  {
+    "name": "מדריך כושר קרבי",
+    "type": ["קרבי", "הדרכה"],
+    "description": "הדרכת חיילים בפעילות גופנית לשיפור הכושר הקרבי.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["4", "5"],
+      "tech": ["physical_training", "instruction"],
+      "traits": ["motivation", "leadership", "discipline"],
+      "profile": 82,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מפעיל רחפן",
+    "type": ["קרבי", "טכני"],
+    "description": "הפעלה ותחזוקה של רחפנים לצורכי מודיעין ותצפית.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["3", "4", "5"],
+      "tech": ["drone_operation", "aerial_navigation"],
+      "traits": ["precision", "technical_skills", "focus"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "קצין קשר",
+    "type": ["פיקוד", "טכני"],
+    "description": "ניהול מערכות התקשורת ביחידה והבטחת תקשורת רציפה.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["3", "4", "5"],
+      "tech": ["communication_systems", "network_management"],
+      "traits": ["organization", "responsibility", "technical_aptitude"],
+      "profile": 72,
+      "dapar": 60,
+      "kaba": 52
+    }
+  },
+  {
+    "name": "חובש קרבי",
+    "type": ["קרבי", "רפואה"],
+    "description": "מתן טיפול רפואי ראשוני בשטח לחיילים פצועים.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["4", "5"],
+      "tech": ["first_aid", "emergency_response"],
+      "traits": ["empathy", "resilience", "decision_making"],
+      "profile": 82,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מפעיל מערכות לוחמה אלקטרונית",
+    "type": ["טכני", "מבצעי", "קרבי"],
+    "description": "הפעלה ותחזוקה של מערכות לוחמה אלקטרונית לצורכי הגנה והתקפה.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["3", "4", "5"],
+      "tech": ["electronic_warfare", "systems_operation"],
+      "traits": ["analytical_thinking", "technical_skills", "teamwork"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "קצין/ה חינוך",
+    "type": ["פיקוד", "אנושי"],
+    "description": "הובלת פעילויות חינוכיות ותרבותיות ביחידה.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["2", "3", "4", "5"],
+      "tech": ["education", "program_management"],
+      "traits": ["leadership", "communication", "creativity"],
+      "profile": 64,
+      "dapar": 60,
+      "kaba": 52
+    }
+  },
+  {
+    "name": "מדריך ירי",
+    "type": ["מבצעי", "הדרכה"],
+    "description": "הדרכת חיילים בשימוש בנשק וירי מדויק.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["4", "5"],
+      "tech": ["weapon_handling", "instruction"],
+      "traits": ["patience", "discipline", "technical_skills"],
+      "profile": 72,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "קצין תחזוקה",
+    "type": ["פיקוד", "טכני"],
+    "description": "ניהול תחזוקת הציוד והכלים ביחידה.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["3", "4", "5"],
+      "tech": ["maintenance_management", "logistics"],
+      "traits": ["organization", "responsibility", "technical_aptitude"],
+      "profile": 72,
+      "dapar": 60,
+      "kaba": 52
+    }
+  },
+  {
+    "name": "לוחם חי''ר",
+    "type": ["קרבי", "אנושי"],
+    "description": "שירות כלוחם בחיל הרגלים, כולל השתתפות בפעילויות מבצעיות והכשרות ייעודיות.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["4", "5"],
+      "tech": ["weapon_handling", "field_navigation"],
+      "traits": ["resilience", "teamwork", "discipline"],
+      "profile": 97,
+      "dapar": null,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מש''ק/ית תנאי שירות",
+    "type": ["עורף", "אנושי"],
+    "description": "סיוע לחיילים בתחום הת\"ש (תנאי שירות), כולל טיפול בבעיות אישיות ומשפחתיות.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["human_resources", "administration"],
+      "traits": ["empathy", "communication", "organization"],
+      "profile": 45,
+      "dapar": 40,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מדריך סימולטור טיסה",
+    "type": ["הדרכה", "מבצעי"],
+    "description": "הדרכת טייסים בסימולטורים מתקדמים כחלק מהכשרתם.",
+    "requirements": {
+      "languages": ["אנגלית", "עברית"],
+      "fitness": ["3", "4", "5"],
+      "tech": ["simulation_systems", "instruction"],
+      "traits": ["patience", "technical_aptitude", "clarity"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "קצין לוגיסטיקה",
+    "type": ["פיקוד"],
+    "description": "ניהול מערך הלוגיסטיקה ביחידה, כולל ציוד, תחזוקה ואספקה.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["2", "3", "4", "5"],
+      "tech": ["logistics_management", "supply_chain"],
+      "traits": ["leadership", "organization", "responsibility"],
+      "profile": 72,
+      "dapar": 60,
+      "kaba": 52
+    }
+  },
+  {
+    "name": "מפעיל מערכות מחשוב",
+    "type": ["טכנולוגי", "טכני"],
+    "description": "הפעלה ותחזוקה של מערכות תקשוב מתקדמות בצה\"ל.",
+    "requirements": {
+      "languages": ["אנגלית", "עברית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["networking", "systems_operation"],
+      "traits": ["technical_skills", "problem_solving", "teamwork"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מפעיל/ת האזנות",
+    "type": ["מודיעין", "טכני"],
+    "description": "האזנה, תרגום וניתוח תכנים בשפות זרות לצורכי מודיעין.",
+    "requirements": {
+      "languages": ["פרסית", "ערבית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["intelligence_analysis", "language_interpretation"],
+      "traits": ["attention_to_detail", "discretion", "focus"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": 52
+    }
+  },
+  {
+    "name": "חוקר/ת מודיעין",
+    "type": ["מודיעין"],
+    "description": "איסוף, הצלבה וניתוח של מקורות מידע מגוונים, הפקת דוחות מודיעיניים.",
+    "requirements": {
+      "languages": ["פרסית", "ערבית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["intelligence_analysis", "data_processing"],
+      "traits": ["analytical_thinking", "curious", "discretion"],
+      "profile": 64,
+      "dapar": 60,
+      "kaba": 56
+    }
+  },
+  {
+    "name": "בלש/ית שטח",
+    "type": ["מודיעין"],
+    "description": "איסוף מידע מודיעיני בשטח ויצירת קשרים עם מקורות.",
+    "requirements": {
+      "languages": ["פרסית", "ערבית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["field_navigation", "intelligence_analysis"],
+      "traits": ["adaptability", "communication", "discretion"],
+      "profile": 64,
+      "dapar": 55,
+      "kaba": 54
+    }
+  },
+  {
+    "name": "מנתח/ת אותות מודיעיניים",
+    "type": ["מודיעין"],
+    "description": "פענוח, עיבוד וניתוח של אותות תקשורתיים עבור מערך המודיעין.",
+    "requirements": {
+      "languages": ["פרסית", "ערבית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["signal_analysis", "data_processing"],
+      "traits": ["precision", "analytical_thinking", "responsibility"],
+      "profile": 64,
+      "dapar": 60,
+      "kaba": 56
+    }
+  },
+  {
+    "name": "חייל/ת מודיעין חזותי",
+    "type": ["מודיעין"],
+    "description": "ניתוח תצלומי אוויר, לוויין ונתונים חזותיים לצורכי מודיעין מבצעי.",
+    "requirements": {
+      "languages": ["פרסית", "ערבית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["visual_intelligence", "data_analysis"],
+      "traits": ["attention_to_detail", "focus", "technical_skills"],
+      "profile": 64,
+      "dapar": 55,
+      "kaba": 54
+    }
+  },
+  {
+    "name": "פרמדיק צבאי",
+    "type": ["קרבי", "רפואה"],
+    "description": "מתן טיפול רפואי מתקדם לחיילים בשטח ופינוי נפגעים.",
+    "requirements": {
+      "languages": ["עברית", "אנגלית"],
+      "fitness": ["4", "5"],
+      "tech": ["emergency_medicine", "first_aid"],
+      "traits": ["resilience", "decision_making", "empathy"],
+      "profile": 82,
+      "dapar": 60,
+      "kaba": 54
+    }
+  },
+  {
+    "name": "מאבחן פסיכוטכני",
+    "type": ["עורף", "אנושי"],
+    "description": "ביצוע מבחנים פסיכוטכניים ומיון מועמדים לשירות ביטחוני.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["psychological_testing", "data_entry"],
+      "traits": ["attention_to_detail", "discretion", "responsibility"],
+      "profile": 64,
+      "dapar": 60,
+      "kaba": 54
+    }
+  },
+  {
+    "name": "מדריך טקטיקה",
+    "type": ["הדרכה", "מבצעי"],
+    "description": "הדרכת חיילים בטקטיקות לחימה מתקדמות.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["4", "5"],
+      "tech": ["tactical_training", "instruction"],
+      "traits": ["discipline", "leadership", "technical_skills"],
+      "profile": 72,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מדריך טכנולוגיות לחימה",
+    "type": ["הדרכה", "טכנולוגי"],
+    "description": "הדרכת חיילים בשימוש בטכנולוגיות לחימה מתקדמות.",
+    "requirements": {
+      "languages": ["עברית", "אנגלית"],
+      "fitness": ["3", "4", "5"],
+      "tech": ["combat_technology", "instruction"],
+      "traits": ["technical_skills", "communication", "patience"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מכונאי מטוסים",
+    "type": ["טכני", "חיל האוויר"],
+    "description": "תחזוקה ותיקון של מטוסים וכלי טיס בחיל האוויר.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["2", "3", "4", "5"],
+      "tech": ["aerospace_maintenance", "mechanics"],
+      "traits": ["technical_skills", "precision", "responsibility"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מדריך סימולטור טיסה קרבי",
+    "type": ["הדרכה", "חיל האוויר"],
+    "description": "הדרכת טייסים ולוחמים בסימולטורים המדמים קרבות אוויר.",
+    "requirements": {
+      "languages": ["עברית", "אנגלית"],
+      "fitness": ["3", "4", "5"],
+      "tech": ["flight_simulation", "instruction"],
+      "traits": ["clarity", "discipline", "technical_skills"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "בקר/ית טיסה",
+    "type": ["מבצעי", "חיל האוויר"],
+    "description": "ניהול תעבורת כלי טיס צבאיים באוויר ובקרקע.",
+    "requirements": {
+      "languages": ["עברית", "אנגלית"],
+      "fitness": ["2", "3", "4", "5"],
+      "tech": ["air_traffic_control", "radio_communication"],
+      "traits": ["alertness", "multitasking", "decision_making"],
+      "profile": 64,
+      "dapar": 60,
+      "kaba": 56
+    }
+  },
+  {
+    "name": "לוחם שייטת 3",
+    "type": ["קרבי", "ים"],
+    "description": "הפעלת כלי שיט ולחימה ימית בשייטת חיל הים.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["4", "5"],
+      "tech": ["naval_operations", "weapons_handling"],
+      "traits": ["resilience", "teamwork", "discipline"],
+      "profile": 97,
+      "dapar": null,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מכונאי ימי",
+    "type": ["טכני", "ים"],
+    "description": "אחראי על תחזוקת מנועים ומערכות מכניות בכלי שיט.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["3", "4", "5"],
+      "tech": ["marine_engineering", "mechanics"],
+      "traits": ["technical_skills", "responsibility", "precision"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מפעיל מערכות גילוי ימי",
+    "type": ["מבצעי", "ים"],
+    "description": "הפעלה וניטור של מערכות סונאר וגילוי תת-ימי.",
+    "requirements": {
+      "languages": ["עברית", "אנגלית"],
+      "fitness": ["3", "4", "5"],
+      "tech": ["sonar_operation", "signal_analysis"],
+      "traits": ["attention_to_detail", "technical_skills", "teamwork"],
+      "profile": 64,
+      "dapar": 50,
+      "kaba": null
+    }
+  },
+  {
+    "name": "פקיד/ת לשכה",
+    "type": ["עורף", "אנושי"],
+    "description": "ניהול יומן קצינים, תיאום פגישות, טיפול במסמכים מנהליים.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["1", "2", "3", "4", "5"],
+      "tech": ["office_management", "administration"],
+      "traits": ["organization", "responsibility", "discretion"],
+      "profile": 45,
+      "dapar": 40,
+      "kaba": null
+    }
+  },
+  {
+    "name": "מפקד כיתה)",
+    "type": ["פיקוד", "הדרכה"],
+    "description": "אחריות על הכשרת טירונים, שמירה על משמעת והעברת תכנים בסיסיים בלוחמה או מקצועות תומכי לחימה.",
+    "requirements": {
+      "languages": ["עברית"],
+      "fitness": ["3", "4", "5"],
+      "tech": ["instruction", "field_command"],
+      "traits": ["leadership", "discipline", "motivation"],
+      "profile": 72,
+      "dapar": 50,
+      "kaba": 52
+    }
+  }
+]

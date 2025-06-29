@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "allowJs": true,               // ✅ תומך בקבצי JSX
+    "checkJs": false,              // ✅ לא בודק שגיאות בקבצי JS/JSX
+
+    /* Linting - Relaxed to avoid build fail */
+    "strict": true,
+    "noUnusedLocals": false,       // ❌ לא להפיל על משתנים לא בשימוש
+    "noUnusedParameters": false,   // ❌ כנ"ל
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["src"]
+}

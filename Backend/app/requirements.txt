@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic
+pytest
+httpx
+uvicorn[standard]
+motor
+python-dotenv
+pydantic-settings
+deep-translator
+pydantic[email]
+resend
