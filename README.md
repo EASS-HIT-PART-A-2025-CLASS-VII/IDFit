@@ -2,7 +2,7 @@
 
 ![logo](https://github.com/user-attachments/assets/d4cb7426-6704-4372-b2dd-11922b5b7394)
 
-## 🌟 About Task It
+## 🌟 About IDFit
 IDFit is an AI-powered system that analyzes personal traits and qualifications to recommend the most suitable military roles in the IDF.  
 It uses natural language processing and structured role data to match users with optimal positions based on skills, personality, and physical profile.
 
@@ -80,8 +80,29 @@ IDFit/
 ### Prerequisites
 - Docker & Docker Compose installed
 - Python 3.10+ (if running locally)
+- Node.js 18+ (if running frontend locally without Docker)
+
 
 ### Clone the repo
-```bash
 git clone https://github.com/EASS-HIT-PART-A-2025-CLASS-VII/IDFit
 cd IDFit
+
+### Run with Docker Compose
+docker compose up --build
+Backend will be available at: http://localhost:8000
+Frontend will be available at: http://localhost:3000
+
+## ⚙️ Run Manually
+# Backend
+cd Backend
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app.main:app --host 0.0.0.0 --port 8000
+
+# Frontend
+cd frontend
+npm install
+npm run build
+npm install -g serve
+serve -s dist -l 3000

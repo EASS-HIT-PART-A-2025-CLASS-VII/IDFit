@@ -10,3 +10,5 @@ pydantic-settings
 deep-translator
 pydantic[email]
 resend
+path
+typing
