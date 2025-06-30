@@ -84,25 +84,36 @@ IDFit/
 
 
 ### Clone the repo
+```plaintext
 git clone https://github.com/EASS-HIT-PART-A-2025-CLASS-VII/IDFit
 cd IDFit
+```
+
 
 ### Run with Docker Compose
+```plaintext
 docker compose up --build
 Backend will be available at: http://localhost:8000
 Frontend will be available at: http://localhost:3000
+```
 
-## ⚙️ Run Manually
-# Backend
+# ⚙️ Run Manually
+## Backend
+```plaintext
 cd Backend
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app.main:app --host 0.0.0.0 --port 8000
+```
 
-# Frontend
+
+## Frontend
+```plaintext
 cd frontend
 npm install
 npm run build
 npm install -g serve
 serve -s dist -l 3000
+```
+
