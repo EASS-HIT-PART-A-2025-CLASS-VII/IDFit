@@ -103,7 +103,7 @@ Frontend will be available at: http://localhost:3000
 cd Backend
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r Backend/app/requirements.txt
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 
@@ -116,4 +116,3 @@ npm run build
 npm install -g serve
 serve -s dist -l 3000
 ```
-
