@@ -12,7 +12,8 @@ https://www.youtube.com/watch?v=nmV89fs3zts&ab_channel=YuvalBenzaquen
 
 ## 🏗️ Architecture
 
-![ארכיטקטורה](https://github.com/user-attachments/assets/1c03ddc8-e47b-4d55-ac7d-1c116464743d)
+![ארכיטקטורה](https://raw.githubusercontent.com/EASS-HIT-PART-A-2025-CLASS-VII/IDFit/main/frontend/public/architecture.png)
+
 
 ### 🔙 Backend
 - FastAPI (Python)
@@ -30,18 +31,20 @@ https://www.youtube.com/watch?v=nmV89fs3zts&ab_channel=YuvalBenzaquen
 
 ## 📁 Project Structure
 
+```plaintext
 IDFit/
 ├── Backend/                        # FastAPI backend
 │   ├── app/
 │   │   ├── config.py              # App configuration
 │   │   ├── database.py            # MongoDB connection logic
 │   │   ├── db_instance.py         # DB client instance
-│   │   ├── email.py               # Email sending logic (e.g., Resend)
+│   │   ├── email.py               # Email sending logic (Resend)
 │   │   ├── main.py                # FastAPI app entry point
 │   │   ├── repositories.py        # Business/data access logic
 │   │   ├── schemas.py             # Pydantic schemas
 │   │   ├── services.py            # Role recommendation logic
-│   │   └── translations.py        # Trait translation handler (with fallback)
+│   │   ├── translations.py        # Trait translation handler (with fallback)
+│   │   └── unit_tests.py          # Backend tests
 │   ├── tests/
 │   │   └── mongo_test.py          # MongoDB-related test
 │   ├── roles.json                 # Role database (IDF positions)
@@ -51,17 +54,16 @@ IDFit/
 │   └── conftest.py                # Test fixtures and setup
 │
 ├── frontend/                      # React + Vite frontend (TypeScript + TailwindCSS)
-│   ├── node_modules/              # Node dependencies
-│   ├── public/                    # Static assets
+│   ├── public/                    # Static assets (images, video)
 │   ├── src/
 │   │   ├── assets/                # Icons and images
 │   │   ├── hooks/                 # Custom React hooks
 │   │   ├── App.tsx               # Root app structure
 │   │   ├── index.css              # Global styles
-│   │   ├── index.tsx             # React entry point
-│   │   ├── main.tsx              # Main render logic
+│   │   ├── index.tsx              # React entry point
+│   │   ├── main.tsx               # Main render logic
 │   │   ├── Welcome.tsx           # Welcome screen
-│   │   └── SidebarIcons.jsx      # Sidebar icon component
+│   │   └── SidebarIcons.tsx      # Sidebar icon component
 │   ├── index.html                 # HTML entry template
 │   ├── tailwind.config.js        # Tailwind CSS config
 │   ├── vite.config.ts            # Vite config file
@@ -69,7 +71,9 @@ IDFit/
 │   ├── tsconfig.json             # TypeScript config
 │   └── Dockerfile                # Frontend container config
 │
+├── scripts/                       # Auxiliary scripts
 └── docker-compose.yml            # Orchestration for backend, frontend, and MongoDB
+```
 
 ## 🚀 Getting Started
 
