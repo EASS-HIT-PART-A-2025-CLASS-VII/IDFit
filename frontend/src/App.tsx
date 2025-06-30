@@ -186,7 +186,7 @@ export default function App() {
             <div>
               <label className="font-semibold">רמת כושר גופני (כאשר 1 הינו הרמה הנמוכה ביותר):</label>
               <input
-                type="number"
+                type="number" min={1} max={5}
                 value={fitness}
                 onChange={(e) => setFitness(Number(e.target.value))}
                 className="input"
