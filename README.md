@@ -94,7 +94,7 @@ cd IDFit
 MONGODB_URL=mongodb://localhost:27017
 DB_NAME=my_database
 OPENROUTER_API_KEY=secret-key
-RESEND_API_KEY=re_GE4JPm6i_Kp3MmMyEuSdcj27CHiVvKyVM
+RESEND_API_KEY=secret-key
 ```
 
 ### Run with Docker Compose
