@@ -89,6 +89,13 @@ git clone https://github.com/EASS-HIT-PART-A-2025-CLASS-VII/IDFit
 cd IDFit
 ```
 
+### 🔑 Environment Variables
+
+MONGODB_URL=mongodb://localhost:27017
+DB_NAME=my_database
+OPENROUTER_API_KEY=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
+RESEND_API_KEY=re_GE4JPm6i_Kp3MmMyEuSdcj27CHiVvKyVM
+
 
 ### Run with Docker Compose
 ```plaintext
@@ -106,7 +113,6 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r Backend/app/requirements.txt
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
-
 
 ### Frontend
 ```plaintext
